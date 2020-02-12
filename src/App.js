@@ -50,7 +50,7 @@ class App extends React.Component {
       <div className='App'>
         <NavBar refresh={this.refresh} />
         <Header />
-        <InputComp setMax={this.setMax} max={this.state.max} />
+        <InputComp setMax={this.setMax} />
         <Counter add={this.add} substract={this.substract} />
         <div style={{ color: 'black', fontSize: '100px' }}>
           {this.state.counter}
