@@ -1,68 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Components & JSX
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### In this exercise you'll test your knowledge about the different types of components available in React and the syntax extension called JSX
 
-### `npm start`
+- [Functional Components](https://reactjs.org/docs/components-and-props.html#function-and-class-components)
+- [Class Components](https://reactjs.org/docs/react-component.html)
+- [JSX](https://reactjs.org/docs/introducing-jsx.html)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Install & Run
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1. To install first clone the repo down to your computer
+1. Inside the repo folder, run:
 
-### `npm test`
+   `npm install`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Start development server
 
-### `npm run build`
+   `npm start`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Change branch to one that has your name:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+   `git branch -b <yourname>`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Minimum Requirements (Making a Counter)
 
-### `npm run eject`
+For all your components you can use [Material UI](https://material-ui.com/) components and icons, its already installed for you =). Or you can create your own from scratch.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**\*If you are having trouble with styles, don't worry about it, the main goal is to have all your jsx and components listed below.**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [ ] Make a class component named NavBar inside the components folder, this must be place on the top part of the application
+- [ ] The NavBar must have a button with a refresh icon inside
+- [ ] Make a Functional component named Header in components folder, give it a title and place it below the NavBar
+- [ ] Make a Class component called InputComp in components folder.
+- [ ] InputComp must have an input and a label to specify the maximum count possible
+- [ ] Make a Class component called Counter in components folder.
+- [ ] The Counter component must have two buttons placed side by side to increment and decrement the counter. Increment must have a + sign/icon and decrement must have a - sign/icon
+- [ ] Inside your App component display the counter number. For this part it can be any number.
+- [ ] Import all of your components to the App/parent component to make it look like this:
+      <br>
+      ![alt text](/assets/final-result.png)
