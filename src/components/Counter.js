@@ -8,10 +8,10 @@ export default class Counter extends Component {
   render() {
     return (
       <div style={{ marginTop: '40px' }}>
-        <Button onClick={() => this.props.add()}>
+        <Button>
           <AddIcon fontSize='large' />
         </Button>
-        <Button onClick={() => this.props.substract()}>
+        <Button>
           <MinusIcon fontSize='large' />
         </Button>
       </div>

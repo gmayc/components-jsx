@@ -6,11 +6,7 @@ export default class InputComp extends Component {
   render() {
     return (
       <div className='input'>
-        <TextField
-          label='Max set to'
-          onChange={e => this.props.setMax(e.target.value)}
-          value={this.props.max}
-        />
+        <TextField label='Max set to' />
       </div>
     );
   }
