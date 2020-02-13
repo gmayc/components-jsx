@@ -23,7 +23,7 @@
 
    `git branch -b <yourname>`
 
-### Minimum Requirements (Making a Counter)
+### Minimum Requirements (Making a Counter Part I)
 
 For all your components you can use [Material UI](https://material-ui.com/) components and icons, its already installed for you =). Or you can create your own from scratch.
 
